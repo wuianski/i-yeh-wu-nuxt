@@ -1,14 +1,68 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@layer base {
-  html {
-    font-family: Arial, Helvetica, sans-serif, system-ui, sans-serif;
-  }
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif, system-ui, sans-serif;
+}
+
+main {
+    height:100vh;
+    overflow-y: scroll;
+}
+
+.navBg {
+    background-color: blue !important;
+    height:100vh;
+    /* overflow-y: scroll; */
+}
+.workList {
+    /* background-color: red !important; */
+    height:75vh;
+    overflow-y: scroll;
+}
+
+.myLink {
+    text-decoration: none;
+}
+
+.siteName {
+    position: absolute;
+    bottom: 32px;
+}
+
+.navBtnBlock {
+    position: fixed;
+}
+
+.navBtn {
+    color: blue;
+    cursor: pointer;
+}
+
+.myVideo {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: 66% 34%;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .two-cols {
+        display: grid;
+        grid-template-columns: 100%;
+    }
 }
 
 .imgSummary a{
     background-color: blue;
     color:#fff;
+}
+
+.reviewLink {
+    /* color: #0000ff; */
+    background-color: blue;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
 }
