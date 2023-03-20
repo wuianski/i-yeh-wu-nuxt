@@ -15,9 +15,6 @@ export default defineNuxtConfig({
       );
     },
   ],
-  // directus: {
-  // 	url: process.env.NUXT_DIRECTUS_URL,
-  // },
   apollo: {
     clients: {
       default: {
@@ -51,15 +48,4 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { redirect: "/works/1" },
   },
-  //publicPath: process.env.APP_BASE_PATH,
-  //   modules: [
-  //     // @ts-ignore
-  //     // this adds the vuetify vite plugin
-  //     // also produces type errors in the current beta release
-  //     async (options, nuxt) => {
-  //       nuxt.hooks.hook("vite:extendConfig", (config) =>
-  //         config.plugins.push(vuetify())
-  //       );
-  //     },
-  //   ],
 });
