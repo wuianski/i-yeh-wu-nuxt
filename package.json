@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "PORT=3003 node .output/server/index.mjs"
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",

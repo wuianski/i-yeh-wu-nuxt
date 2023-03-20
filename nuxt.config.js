@@ -48,7 +48,10 @@ export default defineNuxtConfig({
       noExternal: ["vuetify"], // add the vuetify vite plugin
     },
   },
-
+  routeRules: {
+    "/": { redirect: "/works/1" },
+  },
+  //publicPath: process.env.APP_BASE_PATH,
   //   modules: [
   //     // @ts-ignore
   //     // this adds the vuetify vite plugin
