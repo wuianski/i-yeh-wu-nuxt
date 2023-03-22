@@ -44,7 +44,7 @@
               <v-col cols="12" sm="8">
                 <v-sheet class="text-caption" >
                     <p class="font-weight-bold font-italic">{{ singleWork.works_by_id.title }}</p>
-                    <p class="" v-html="singleWork.works_by_id.info"></p>
+                    <div v-html="singleWork.works_by_id.info"></div>
                 </v-sheet>
               </v-col>
             </v-row>
@@ -60,7 +60,7 @@
                 </v-row>
                 <v-row class="text-caption">
                   <v-col cols="12" sm="8">
-                    <div class=""><p v-html="singleWork.works_by_id.statement"></p></div>
+                    <div v-html="singleWork.works_by_id.statement"></div>
                   </v-col>
                 </v-row>
             </div>
@@ -85,7 +85,7 @@
               <div v-if="singleWork.works_by_id.statement">
                 <v-row class="text-caption">
                   <v-col cols="12" sm="8">
-                    <div class=""><p v-html="singleWork.works_by_id.statement"></p></div>
+                    <div v-html="singleWork.works_by_id.statement"></div>
                   </v-col>
                 </v-row>
               </div>
@@ -135,7 +135,7 @@
               <div v-if="singleWork.works_by_id.statement">
                 <v-row class="text-caption">
                   <v-col cols="12" sm="8">
-                    <div class=""><p v-html="singleWork.works_by_id.statement"></p></div>
+                    <div v-html="singleWork.works_by_id.statement"></div>
                   </v-col>
                 </v-row>
               </div>
@@ -177,7 +177,7 @@
               <!-- CONTENT - main content - 1nd row - statement -->
               <v-row class="text-caption">
                 <v-col cols="12" sm="12">
-                  <div><p v-html="singleWork.works_by_id.statement"></p></div>
+                  <div v-html="singleWork.works_by_id.statement"></div>
                 </v-col>
               </v-row>
               <!-- CONTENT - main content - 2nd row - image -->
