@@ -9,7 +9,7 @@
       >
       <div class="d-flex flex-column h-100">
         <!-- NAV - work list -->
-        <div class="workList">
+        <div class="workList layout-cell layout-scrollbar">
           <span v-for=" ws in worksLIst.works">
             <WorkLIst :work="ws" />
           </span>
