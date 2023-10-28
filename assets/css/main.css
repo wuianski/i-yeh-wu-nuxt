@@ -9,7 +9,7 @@ main {
 }
 
 .navBg {
-    background-color: blue !important;
+    background-color: #000 !important; /*blue*/
     height:100vh;
     /* overflow-y: scroll; */
 }
@@ -76,7 +76,7 @@ main {
 }
 
 .navBtn {
-    color: blue;
+    color: #000; /*blue*/
     cursor: pointer;
 }
 
@@ -98,13 +98,13 @@ main {
 }
 
 .imgSummary a{
-    background-color: blue;
+    background-color: #000; /*blue*/
     color:#fff;
 }
 
 .reviewLink {
     /* color: #0000ff; */
-    background-color: blue;
+    background-color: #000; /*blue*/
     color:#fff;
     cursor: pointer;
     text-decoration: none;
