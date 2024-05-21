@@ -22,7 +22,7 @@
             <div class="w-100 d-flex justify-space-between text-white">
               <div >
                 <a class="navLink" :href="`mailto:wuiyeh@gmail.com`" target="_blank">
-                  wuiyeh@gmail.com
+                  wuiyeh at gmail dot com
                 </a>
               </div>
               <div>
