@@ -15,18 +15,25 @@
           </span>
         </div>
         <!-- NAV - site name and cv -->
-        <div class="h-25 d-flex align-end">
-          <div class="w-100 d-flex justify-space-between text-white">
-            <span>
-              <span>WU I-YEH</span><span class="ml-2">吳 宜 曄</span>
-            </span>
-            <span>
-              <a class="reviewLink" :href="config.DIRECTUS_FILE_URL + myCV.cv[0].cv.filename_disk" target="_blank">
-                CV
-              </a>
-            </span>
+        <div class="d-flex align-end" height="15vh">
+          <div class="w-100 pt-4">
+            <div class="w-100 text-white navNoLink {
+"> <span>WU I-YEH</span><span class="ml-2">吳 宜 曄</span></div >          
+            <div class="w-100 d-flex justify-space-between text-white">
+              <div >
+                <a class="navLink" :href="`mailto:wuiyeh@gmail.com`" target="_blank">
+                  wuiyeh@gmail.com
+                </a>
+              </div>
+              <div>
+                <a class="navLink" :href="config.DIRECTUS_FILE_URL + myCV.cv[0].cv.filename_disk" target="_blank">
+                  CV.
+                </a>
+              </div>
+            </div>  
           </div>
         </div>
+
       </div>
       </v-navigation-drawer>  
       <!-- CONTENT -->
