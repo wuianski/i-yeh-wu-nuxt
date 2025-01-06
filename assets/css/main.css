@@ -1,9 +1,9 @@
 
 html {
     /* font-family: Roboto, Arial, Helvetica, sans-serif, system-ui, sans-serif; */
-    font-family: Roboto, Helvetica;
+    font-family:'Courier New', Courier, monospace;
     font-size: medium;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 main {
@@ -14,7 +14,7 @@ main {
 .navBg {
     background-color: #000 !important; /*blue*/
     height:100vh;
-    /* width: 300px !important; */
+    width: 300px !important;
     /* overflow-y: scroll; */
 }
 .workList {
