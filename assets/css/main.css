@@ -4,11 +4,22 @@ html {
     font-family:'Courier New', Courier, monospace;
     font-size: medium;
     letter-spacing: 0.02em;
+    overflow-y: hidden;
+    /* -ms-overflow-style: none;  /* IE and Edge */
+    /* scrollbar-width: none;  Firefox */
 }
 
 main {
     height:100vh;
     overflow-y: scroll;
+}
+
+.v-main {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.v-main::-webkit-scrollbar {
+    display: none;
 }
 
 .navBg {
