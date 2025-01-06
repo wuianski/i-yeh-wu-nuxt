@@ -3,17 +3,18 @@ html {
     /* font-family: Roboto, Arial, Helvetica, sans-serif, system-ui, sans-serif; */
     font-family:'Courier New', Courier, monospace;
     font-size: medium;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     overflow-y: hidden;
-    /* -ms-overflow-style: none;  /* IE and Edge */
-    /* scrollbar-width: none;  Firefox */
 }
 
 main {
     height:100vh;
     overflow-y: scroll;
+    font-family:'Courier New', Courier, monospace !important;
 }
-
+.text-caption {
+    font-family:'Courier New', Courier, monospace !important;
+}
 .v-main {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
